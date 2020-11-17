@@ -1,0 +1,1 @@
+rofi -modi drun -show
