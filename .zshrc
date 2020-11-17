@@ -101,8 +101,7 @@ rc(){
 }
 # alias for managing dotfiles with git bare
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
-# clearing the screen because of % issue
-# clear
-# alias dun='killall dunst && dunst &
-# notify-send "cool1" "yeah it is working"
-# notify-send "cool2" "yeah it is working"'
+# alias for checking dunst
+alias dun='killall dunst && dunst &
+notify-send "cool1" "yeah it is working"
+notify-send "cool2" "yeah it is working"'
