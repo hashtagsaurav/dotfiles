@@ -1,6 +1,15 @@
 # <p align="center">DOTFILES</p>
 
+## Contents
+
+- [Rice](#my-nord-rice)
+- [Details](#details)
+- [How To Copy](#how-to-copy)
+- [Screenshots](#screenshots)
+
 ## My Nord Rice
+
+![Nord](Screenshots/nord.png)
 
 This is my first rice and first Arch install with a window manager (i3-gaps).
 This rice is not made for aesthetics. But I like gaps that is why I have less gaps in the rice so that I can be more productive in my laptop.
@@ -60,6 +69,7 @@ This repo is made so that I can copy this in different system and I want to post
     - [psliwka/vim-smoothie](https://github.com/psliwka/vim-smoothie)
     - [iamcco/markdown-preview.nvim](https://github.com/iamcco/markdown-preview.nvim)
 - **FONT** : [JetBrainsMono Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/JetBrainsMono)
+- **WALLPAPER** : [From wallhaven](https://whvn.cc/p8drxp)
 - **MUSIC PLAYER** : Spotify (with [Spicetify](https://github.com/khanhas/Spicetify))
 - **BROWSER** : Firefox ([userChrome](https://github.com/mut-ex/minimal-functional-fox)-with some modification,[startpage](https://addons.mozilla.org/en-US/firefox/addon/nighttab/))
 - **FILE MANAGER** : [Ranger](https://github.com/ranger/ranger)
@@ -107,4 +117,56 @@ This repo is made so that I can copy this in different system and I want to post
 
 ## Screenshots
 
-### <p align="center">DOTFILES</p>
+- Polybar and Wallpaper
+
+  ![Polybar and Wallpaper](Screenshots/polybar.png)
+
+- Neofetch and Dunst
+
+  ![Neofetch and Dunst](Screenshots/dunst-neofetch.png)
+
+- Firefox
+
+  ![Firefox](Screenshots/firefox.png)
+
+- Neovim
+
+  ![Neovim](Screenshots/neovim.png)
+
+- Feh, Ranger and Alacritty
+
+  ![Feh, Ranger and Alacritty](Screenshots/feh-ranger.png)
+
+- Rofi
+
+  ![Rofi](Screenshots/rofi.png)
+
+- Powermenu - rofi script
+
+  ![Powermenu](Screenshots/power.png)
+
+- Mpv and workflow
+
+  ![Mpv and workflow](Screenshots/mpv.png)
+
+- Ranger, Zathura, Colorls and Fzf
+
+  ![Ranger, Zathura, Colorls and Fzf](Screenshots/ranger-zathura-alacritty.png)
+
+- Zathura and Neovim
+
+  ![Zathura and Neovim](Screenshots/neovim-zathura.png)
+
+- Betterlockscreen
+
+  ![Betterlockscreen](Screenshots/lock.png)
+
+- Spotify
+
+  ![Spotify](Screenshots/spotify.png)
+
+- For unixporn
+
+  ![qlock and fet.sh](Screenshots/qlock-fet.png)
+
+  ![For unixporn](Screenshots/random.png)
