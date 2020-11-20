@@ -70,8 +70,9 @@ This repo is made so that I can copy this in different system and I want to post
     - [iamcco/markdown-preview.nvim](https://github.com/iamcco/markdown-preview.nvim)
 - **FONT** : [JetBrainsMono Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/JetBrainsMono)
 - **WALLPAPER** : [From wallhaven](https://whvn.cc/p8drxp)
-- **MUSIC PLAYER** : Spotify (with [Spicetify](https://github.com/khanhas/Spicetify))
+- **MUSIC PLAYER** : Spotify (with [Spicetify](https://github.com/khanhas/spicetify-cli) and [Dribbblish Nord Dark Theme](https://github.com/morpheusthewhite/spicetify-themes/wiki/Themes-preview#nord-dark) from [spicetify-themes](https://github.com/morpheusthewhite/spicetify-themes))
 - **BROWSER** : Firefox ([userChrome](https://github.com/mut-ex/minimal-functional-fox)-with some modification,[startpage](https://addons.mozilla.org/en-US/firefox/addon/nighttab/))
+- **SEARCH ENGINE** : DuckDuckGo (with custom color theme you can have the same by loading the setting, code - HashtagNord)
 - **FILE MANAGER** : [Ranger](https://github.com/ranger/ranger)
 - **NOTIFICATION** : [Dunst](https://github.com/dunst-project/dunst)
 - **COMPOSITOR** : [Picom-ibhagwan](https://github.com/ibhagwan/picom)
@@ -96,7 +97,7 @@ This repo is made so that I can copy this in different system and I want to post
   - Then build your own config.
 - **The Other Way :**
 
-  - **These commands below are not tested. You can use your prefered way**
+  - **These commands below are not tested. You can use your prefered way.**
   - Make sure you have all the dependencies installed in your system (~~All~~ Most of it is mentioned above in the Details section).
   - Then git clone this repository in your system. This command will clone this repo to your downloads folder (make sure you have git installed).
 
@@ -144,6 +145,10 @@ This repo is made so that I can copy this in different system and I want to post
 - Powermenu - rofi script
 
   ![Powermenu](Screenshots/power.png)
+
+- DuckDuckGo (Yeah, I switched)
+
+  ![DuckDuckGo](Screenshots/duckduckgo.png)
 
 - Mpv and workflow
 
