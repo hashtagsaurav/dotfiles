@@ -441,7 +441,7 @@ type = custom/text
 format-spacing = 2
 content = %{T2}%{T-}
 content-foreground = ${colors.alert}
-click-left = "sudo rofi -modi 'Powermenu: /home/saurav/.config/rofi/scripts/rofi-powermenu.sh' -show Powermenu -theme /home/saurav/.config/rofi/powermenu.rasi"
+click-left = "bash .config/rofi/powermenu/powermenu.sh"
 
 [module/powermenu]
 type = custom/menu

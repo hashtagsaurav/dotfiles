@@ -94,6 +94,10 @@ alias wifi="nmtui-connect"
 alias grep='grep --color=auto'
 # alias for Neovim
 alias v='nvim'
+# alias for verbose cp, mv, rm
+alias mv='mv -v'
+alias cp='cp -vr'
+alias rm='rm -vr'
 # alias for running cpp files
 rc(){
   g++ "$1" -o run

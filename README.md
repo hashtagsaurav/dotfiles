@@ -142,6 +142,10 @@ This repo is made so that I can copy this in different system and I want to post
 
   ![Rofi](Screenshots/rofi.png)
 
+- New Powermenu - rofi script (you will need feather.tff font for this its in the rofi folder)
+
+  ![New-Powermenu](Screenshots/newpower.png)
+
 - Powermenu - rofi script
 
   ![Powermenu](Screenshots/power.png)

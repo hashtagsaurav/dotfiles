@@ -90,11 +90,12 @@ bindsym $mod+Shift+d exec "rofi -modi window -show window -theme nord"
 # installed.
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
+bindsym $mod+Shift+p exec "scrot -s"
 # change focus
-bindsym $mod+j focus left
-bindsym $mod+k focus down
-bindsym $mod+l focus up
-bindsym $mod+semicolon focus right
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
@@ -103,10 +104,10 @@ bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # move focused window
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
-bindsym $mod+Shift+semicolon move right
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
@@ -115,7 +116,7 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
-bindsym $mod+h split h
+bindsym $mod+z split h
 
 # split in vertical orientation
 bindsym $mod+v split v
@@ -183,6 +184,11 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 
 #Assign programs to workspaces use xprop for class name
 for_window [class="firefox"] move to workspace $ws3
+for_window [class="Spotify"] move to workspace $ws5
+for_window [class="discord"] move to workspace $ws6
+
+bindsym $mod+Shift+f exec firefox
+bindsym $mod+Shift+s exec spotify
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -190,8 +196,8 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 # bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
-bindsym $mod+Shift+e exec "sudo rofi -modi 'Powermenu: /home/saurav/.config/rofi/scripts/rofi-powermenu.sh' -show Powermenu -theme /home/saurav/.config/rofi/powermenu.rasi"
-
+# bindsym $mod+Shift+e exec "sudo rofi -modi 'Powermenu: /home/saurav/.config/rofi/scripts/rofi-powermenu.sh' -show Powermenu -theme /home/saurav/.config/rofi/powermenu.rasi"
+bindsym $mod+Shift+e exec "bash .config/rofi/powermenu/powermenu.sh"
 # resize window (you can also use the mouse for that)
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
@@ -200,10 +206,10 @@ mode "resize" {
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
-        bindsym j resize shrink width 10 px or 10 ppt
-        bindsym k resize grow height 10 px or 10 ppt
-        bindsym l resize shrink height 10 px or 10 ppt
-        bindsym semicolon resize grow width 10 px or 10 ppt
+        bindsym h resize shrink width 10 px or 10 ppt
+        bindsym j resize grow height 10 px or 10 ppt
+        bindsym k resize shrink height 10 px or 10 ppt
+        bindsym l resize grow width 10 px or 10 ppt
 
         # same bindings, but for the arrow keys
         bindsym Left resize shrink width 10 px or 10 ppt
@@ -223,7 +229,7 @@ bindsym $mod+r mode "resize"
 bindsym $mod+y exec "bash /home/saurav/.config/mpv/scripts/yt.sh"
 
 # Wallpaper
-exec_always feh --bg-fill /home/saurav/Downloads/wallhaven-p8drxp.jpg
+exec_always feh --bg-fill /usr/share/backgrounds/wallhaven-p8drxp.jpg
 
 # i3Lock key-map
 bindsym $mod+x exec betterlockscreen -u /home/saurav/Downloads/wallhaven-p8drxp.jpg -l blur
